@@ -1,3 +1,4 @@
+
 public class EmployeeQ2 {
 	private  int id;
 	private  String name;
@@ -10,13 +11,28 @@ public class EmployeeQ2 {
 		this.salary = salary;
 		this.addr = addr;
 	}
+	public void caller()
+	{
+		if(salary>50000)
+		{
+			display();
+		}
+		else
+		{
+			System.out.println("salary below 50000");
+		}
+	}
+
 		
 		
 	public void display()
 	{
-		if(salary>50000)
-		{
+	
+		
 			System.out.println("Name =" +name + "id =" + id + "state =" + addr.state  + "city =" +addr.city + "pin ="  + addr.pin);
-		}
+		
 	}
 }
+
+	
+	 

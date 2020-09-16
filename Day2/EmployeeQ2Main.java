@@ -11,12 +11,12 @@ public class EmployeeQ2main {
 		emp[0]=new EmployeeQ2(10,"Raman",30000.00,t1);
 		emp[1]=new EmployeeQ2(20,"Raj",40000.00,t2);
 		emp[2]=new EmployeeQ2(30,"Rohit",60000.00,t3);
-		emp[3]=new EmployeeQ2(20,"Raj",70000.00,t4);
-		emp[4]=new EmployeeQ2(20,"Raj",80000.00,t4);
+		emp[3]=new EmployeeQ2(20,"harsh",70000.00,t4);
+		emp[4]=new EmployeeQ2(20,"Rahil",80000.00,t4);
 		
 		for(EmployeeQ2 s1:emp)
 		{
-			s1.display();
+			s1.caller();
 		}
 	}
 
