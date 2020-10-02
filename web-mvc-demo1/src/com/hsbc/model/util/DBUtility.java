@@ -11,7 +11,7 @@ public class DBUtility {
 		Class.forName(ClientDriver.class.getName());
 		//Class.forName("org.apache.derby.jdbc.ClientDriver");//Same as above
 		//2.Establish connection
-		Connection connection=DriverManager.getConnection("jdbc:derby://localhost:1527/mydb","ayushman","ayushman123");
+		Connection connection=DriverManager.getConnection("jdbc:derby://localhost:1527/mydb","varun","varun123");
 		return connection;
 	}
 }
